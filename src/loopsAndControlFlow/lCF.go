@@ -1,8 +1,8 @@
-package main
+package loopsAndControlFlow
 
 import "fmt"
 
-func main() {
+func Main() {
 	for i := 1; i < 20; i++ {
 		fmt.Printf("Loop %v\n", i)
 	}
